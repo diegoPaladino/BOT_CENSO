@@ -40,6 +40,13 @@ time.sleep(0.5)
 pyautogui.dragTo(225, -722, 0.5, button='left')
 pyautogui.hotkey('ctrl','c')
 
+# indo para o executavel da escrita de data na platafomra Censo
+pyautogui.moveTo(291, -25)
+
+
+
+
+
 # voltando para o Mozila (plataforma Censo)
 # pyautogui.hotkey('alt','tab')
 # pyautogui.moveTo(144, -113, 0.2)

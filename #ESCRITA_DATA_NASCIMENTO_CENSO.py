@@ -2,6 +2,15 @@
 
 import pyautogui
 
-# troca das propriedades de data
 
+# seleção Mozila para inserção da data
+pyautogui.moveTo(194, -23)
+pyautogui.click()
+
+# seleção text box data de nascimento
+pyautogui.moveTo(144, -110)
+pyautogui.click()
+
+# digitação da data de nascimento
+pyautogui.write('07/09/2007')
 

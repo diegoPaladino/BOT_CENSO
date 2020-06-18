@@ -42,6 +42,21 @@ pyautogui.hotkey('ctrl','c')
 
 # indo para o executavel da escrita de data na platafomra Censo
 pyautogui.moveTo(291, -25)
+pyautogui.click()
+
+# seleção do local onde estão os dados de data de nascimento para substituição
+pyautogui.moveTo(775, 44)
+pyautogui.click()
+pyautogui.moveTo(500, 381)
+
+# tentativa de seleção por 'shift'
+pyautogui.click()
+pyautogui.keyDown('shift')
+pyautogui.hotkey('right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', )
+pyautogui.click()
+
+# pyautogui.dragTo(578, 380, 1, button='left')
+
 
 
 

@@ -47,7 +47,7 @@ pyautogui.click()
 # seleção do local onde estão os dados de data de nascimento para substituição
 pyautogui.moveTo(775, 44)
 pyautogui.click()
-pyautogui.moveTo(500, 381)
+pyautogui.moveTo(500, 420)
 
 # tentativa de seleção por 'shift'
 pyautogui.click()
@@ -59,8 +59,9 @@ pyautogui.hotkey('ctrl', 'v')
 pyautogui.hotkey('esc')
 
 # play
-pyautogui.moveTo(194, -23)
-pyautogui.hotkey('enter')
+pyautogui.moveTo(1941148, 45)
+pyautogui.click()
+
 
 
 

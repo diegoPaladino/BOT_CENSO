@@ -54,24 +54,14 @@ pyautogui.click()
 pyautogui.keyDown('shift')
 pyautogui.press(['right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right'])
 pyautogui.click()
+pyautogui.keyUp('shift')
 
 pyautogui.hotkey('ctrl', 'v')
 pyautogui.hotkey('esc')
 
 # play
-pyautogui.moveTo(1941148, 45)
+pyautogui.moveTo(1148, 45)
 pyautogui.click()
 
-
-
-
-
-
-
-# voltando para o Mozila (plataforma Censo)
-# pyautogui.hotkey('alt','tab')
-# pyautogui.moveTo(144, -113, 0.2)
-# pyautogui.click()
-# time.sleep(0.5)
-# pyautogui.write(a)
-
+# aguardo do tempo necessário para a execução do programa secundário
+time.sleep(3)

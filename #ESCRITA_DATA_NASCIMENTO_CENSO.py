@@ -12,5 +12,5 @@ pyautogui.moveTo(144, -110)
 pyautogui.click()
 
 # digitação da data de nascimento
-pyautogui.write('07/09/2007')
+pyautogui.write('26/12/2008')
 

@@ -52,10 +52,15 @@ pyautogui.moveTo(500, 381)
 # tentativa de seleção por 'shift'
 pyautogui.click()
 pyautogui.keyDown('shift')
-pyautogui.hotkey('right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', )
+pyautogui.press(['right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right'])
 pyautogui.click()
 
-# pyautogui.dragTo(578, 380, 1, button='left')
+pyautogui.hotkey('ctrl', 'v')
+pyautogui.hotkey('esc')
+
+# play
+pyautogui.moveTo(194, -23)
+pyautogui.hotkey('enter')
 
 
 

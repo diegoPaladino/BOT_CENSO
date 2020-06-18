@@ -2,4 +2,9 @@
 
 import pyautogui
 
-pyautogui.moveTo(x=524, y=-573)
+
+pyautogui.moveTo(x=136, y=-720)
+pyautogui.doubleClick()
+pyautogui.keyDown('shift')
+pyautogui.press('end')
+# pyautogui.keyUp('shift')

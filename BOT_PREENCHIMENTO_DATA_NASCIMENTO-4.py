@@ -4,6 +4,15 @@ import pyautogui
 import time
 
 
+# selecionar janela do programa secundario para pré-definir a seleção de data
+pyautogui.moveTo(775, 44)
+pyautogui.click()
+time.sleep(0.5)
+pyautogui.moveTo(x=499, y=418)
+pyautogui.click()
+
+
+# selecionando o nome do aluno no Excel - box
 pyautogui.moveTo(134, -722)
 pyautogui.click()
 time.sleep(0.5)

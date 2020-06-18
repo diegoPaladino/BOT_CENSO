@@ -14,13 +14,12 @@ pyautogui.click()
 time.sleep(0.3)
 
 # digitação da data de nascimento
-pyautogui.write('03/06/2008')
+pyautogui.write('27/12/2007')
 
 # mandar pesquisar no Censo
 pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab'])
 pyautogui.hotkey('enter')
-time.sleep(2)
-pyautogui.press(['pagedown', 'pagedown'])
+time.sleep(1)
 
 # procura pelo nome da mae
 pyautogui.moveTo(242, -26, 0.5)
@@ -40,9 +39,11 @@ pyautogui.click()
 time.sleep(0.3)
 
 # inserção do nome da mãe no campo de pesquisa
+pyautogui.press(['pagedown', 'pagedown'])
 pyautogui.keyDown('ctrl')
 pyautogui.hotkey('f')
 pyautogui.keyUp('ctrl')
 pyautogui.keyDown('ctrl')
 pyautogui.hotkey('v')
 pyautogui.keyUp('ctrl')
+pyautogui.hotkey('backspace')

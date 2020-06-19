@@ -47,3 +47,11 @@ pyautogui.keyDown('ctrl')
 pyautogui.hotkey('v')
 pyautogui.keyUp('ctrl')
 pyautogui.hotkey('backspace')
+
+# VSCODE - ida para o software 3
+pyautogui.moveTo(991, 44
+pyautogui.click()
+
+# MOZILA - volta para a plataforma Censo para o vinculo do aluno
+pyautogui.moveTo(194, -23)
+pyautogui.click()

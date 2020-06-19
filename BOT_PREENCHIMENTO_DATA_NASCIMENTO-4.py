@@ -74,4 +74,4 @@ pyautogui.moveTo(1148, 45)
 pyautogui.click()
 
 # aguardo do tempo necessário para a execução do programa secundário
-time.sleep(3)
+time.sleep(0.5)

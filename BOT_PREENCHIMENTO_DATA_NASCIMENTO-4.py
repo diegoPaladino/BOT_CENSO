@@ -27,6 +27,7 @@ pyautogui.moveTo(193, -23, 0.2)
 pyautogui.click()
 
 # seleção do box e cola do nome na plataforma Censo
+time.sleep(3)               #############################################################################
 pyautogui.moveTo(140, -187)
 pyautogui.click()
 pyautogui.hotkey('ctrl','a')

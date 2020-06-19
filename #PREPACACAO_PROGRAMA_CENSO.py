@@ -4,7 +4,7 @@ import pyautogui
 import time
 
 # MOZILA - mudança para a janela do Mozila Firefox (plataforma Censo) e atualização da janela
-pyautogui.moveTo(193, -23, 0.2)
+pyautogui.moveTo(193, -23)
 pyautogui.click()
 pyautogui.hotkey('f5')
 
@@ -12,9 +12,10 @@ pyautogui.hotkey('f5')
 pyautogui.moveTo(247, -26)
 pyautogui.click()
 time.sleep(0.3)
+pyautogui.hotkey('esc')
 pyautogui.hotkey('left')
 pyautogui.moveTo()
-pyautogui.click(227, 780, 0.3)
+pyautogui.click(227, -780)
 pyautogui.click()
 pyautogui.hotkey('down')
 
@@ -22,3 +23,6 @@ pyautogui.hotkey('down')
 pyautogui.moveTo(418, 46)
 pyautogui.click()
 
+# VSCODE - Deixando o mouse sobre o "play"
+pyautogui.moveTo(1148, 48)
+pyautogui.click()

@@ -14,12 +14,13 @@ pyautogui.click()
 time.sleep(0.3)
 
 # digitação da data de nascimento
-pyautogui.write('26/12/2008')
+pyautogui.write('02/03/2008')
+time.sleep(2)
 
 # mandar pesquisar no Censo
 pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab'])
 pyautogui.hotkey('enter')
-time.sleep(1)
+time.sleep(0.3)
 
 # procura pelo nome da mae
 pyautogui.moveTo(242, -26, 0.5)
@@ -49,7 +50,7 @@ pyautogui.keyUp('ctrl')
 pyautogui.hotkey('backspace')
 
 # VSCODE - ida para o software 3
-pyautogui.moveTo(991, 44
+pyautogui.moveTo(991, 44)
 pyautogui.click()
 
 # MOZILA - volta para a plataforma Censo para o vinculo do aluno

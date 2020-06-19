@@ -3,7 +3,7 @@
 import pyautogui
 import time
 
-pyautogui.moveTo(185, -413)
+pyautogui.moveTo(190, -368)
 pyautogui.click()
 time.sleep(2)
 pyautogui.moveTo(175, -374, duration=0.5)

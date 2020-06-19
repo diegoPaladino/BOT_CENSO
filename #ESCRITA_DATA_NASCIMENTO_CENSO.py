@@ -14,7 +14,7 @@ pyautogui.click()
 time.sleep(0.3)
 
 # digitação da data de nascimento
-pyautogui.write('07/03/2006')
+pyautogui.write('15/04/2009')
 time.sleep(2)
 
 # mandar pesquisar no Censo
@@ -54,5 +54,9 @@ pyautogui.moveTo(991, 44)
 pyautogui.click()
 
 # MOZILA - volta para a plataforma Censo para o vinculo do aluno
-pyautogui.moveTo(194, -23)
-pyautogui.click()
+# pyautogui.moveTo(194, -23)
+# pyautogui.click()
+
+# abre a pasta de robos
+pyautogui.moveTo()
+pyautogui.click(98, -21)

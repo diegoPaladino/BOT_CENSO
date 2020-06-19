@@ -3,15 +3,19 @@
 import pyautogui
 import time
 
-pyautogui.moveTo(534, -296)
+pyautogui.moveTo(539, -152)
 pyautogui.click()
+time.sleep(1.5)
 pyautogui.press('pagedown')
-pyautogui.moveTo(984, -302)
-time.sleep(0.2)
+pyautogui.moveTo(987, -121)
+pyautogui.click()
+time.sleep(0.5)
 pyautogui.moveTo(182, -390)
 pyautogui.click()
+time.sleep(0.5)
 pyautogui.moveTo(173, -372)
 pyautogui.click()
+time.sleep(0.5)
 pyautogui.hotkey('pagedown')
 pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down'])
 pyautogui.moveTo(111, -373)

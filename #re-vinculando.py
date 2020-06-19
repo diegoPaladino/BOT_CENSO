@@ -1,12 +1,16 @@
-#censo-script-vinculo
+#re-vinculando
 
 import pyautogui
 import time
 
-pyautogui.moveTo(185, -413)
+pyautogui.moveTo(534, -296)
 pyautogui.click()
-time.sleep(2)
-pyautogui.moveTo(175, -374, duration=0.5)
+pyautogui.press('pagedown')
+pyautogui.moveTo(984, -267)
+time.sleep(0.2)
+pyautogui.moveTo(181, -373)
+pyautogui.click()
+pyautogui.moveTo(173, -372)
 pyautogui.click()
 pyautogui.hotkey('pagedown')
 pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down'])

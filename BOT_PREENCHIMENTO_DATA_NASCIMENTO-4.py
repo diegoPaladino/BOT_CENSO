@@ -32,8 +32,9 @@ pyautogui.click()
 pyautogui.hotkey('ctrl','a')
 time.sleep(0.3)
 pyautogui.hotkey('ctrl','v')
+time.sleep(0.3)
 
-# inserção (ctrl+v) da data de nascimento na platqaforma Censo
+# inserção (ctrl+v) da data de nascimento na plataforma Censo
 pyautogui.moveTo(247, -26)
 pyautogui.click()
 time.sleep(0.3)

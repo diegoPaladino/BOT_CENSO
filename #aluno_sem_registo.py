@@ -39,6 +39,16 @@ time.sleep(0.3)
 # selecionando próximo nome
 pyautogui.press(['down', 'down'])
 
+# MOZILA - F5 no Mozila
+pyautogui.moveTo(194, -23)
+pyautogui.click()
+time.sleep(0.3)
+
+# EXCEL - voltando a planilha do Excel
+pyautogui.moveTo(241, -16)
+pyautogui.click()
+time.sleep(0.3)
+
 # VSCODE - deixando janela do VSCode selecionada
 pyautogui.moveTo(289, -23)
 pyautogui.click()

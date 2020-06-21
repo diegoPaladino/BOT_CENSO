@@ -15,11 +15,11 @@ pyautogui.click()
 # selecionando o nome do aluno no Excel - box
 pyautogui.moveTo(134, -722)
 pyautogui.click()
-time.sleep(0.5)
+time.sleep(0.2)
 
 
 # copia de nome do aluno na planilha do Excel
-pyautogui.dragTo(490, -722, 0.5, button='left')       #deu certo este daqui
+pyautogui.dragTo(490, -722, 0.2, button='left')       #deu certo este daqui
 pyautogui.hotkey('ctrl','c')
 
 # mudança para a janela do Mozila Firefox (plataforma Censo)
@@ -27,13 +27,13 @@ pyautogui.moveTo(193, -23, 0.2)
 pyautogui.click()
 
 # seleção do box e cola do nome na plataforma Censo
-time.sleep(3)               #############################################################################
+time.sleep(2)               #############################################################################
 pyautogui.moveTo(140, -187)
 pyautogui.click()
 pyautogui.hotkey('ctrl','a')
-time.sleep(0.3)
+time.sleep(0.2)
 pyautogui.hotkey('ctrl','v')
-time.sleep(0.3)
+time.sleep(0.2)
 
 # inserção (ctrl+v) da data de nascimento na plataforma Censo
 pyautogui.moveTo(247, -26)
@@ -47,7 +47,7 @@ pyautogui.press(['right','right'])
 # copia da data de nascimento
 pyautogui.moveTo(134, -722)
 pyautogui.click()
-time.sleep(0.5)
+time.sleep(0.2)
 pyautogui.dragTo(225, -722, 0.5, button='left')
 pyautogui.hotkey('ctrl','c')
 
@@ -75,4 +75,4 @@ pyautogui.moveTo(1148, 45)
 pyautogui.click()
 
 # aguardo do tempo necessário para a execução do programa secundário
-time.sleep(0.5)
+time.sleep(0.2)

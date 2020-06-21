@@ -10,6 +10,19 @@ pyautogui.press('pagedown')
 pyautogui.moveTo(987, -121)
 pyautogui.click()
 time.sleep(0.5)
+
+# PASTA - indo para a pasta do Windows e preparando para o software de vinculo
+pyautogui.moveTo(104, -25)
+pyautogui.click()
+time.sleep(0.2)
+pyautogui.press(['up', 'up', 'up'])
+pyautogui.moveTo(193, -25)
+pyautogui.click()
+
+
+
+
+
 # pyautogui.moveTo(182, -390)
 # pyautogui.click()
 # pyautogui.moveTo(173, -372)

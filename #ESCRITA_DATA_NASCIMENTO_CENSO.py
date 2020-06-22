@@ -14,7 +14,7 @@ pyautogui.click()
 time.sleep(0.3)
 
 # digitação da data de nascimento
-pyautogui.write('08/04/2005  ')
+pyautogui.write('07/11/2004  ')
 time.sleep(2)
 
 # mandar pesquisar no Censo
@@ -60,3 +60,7 @@ pyautogui.click()
 # abre a pasta de robos
 pyautogui.moveTo()
 pyautogui.click(98, -21)
+
+# MOZILA - Deixa posicionado
+pyautogui.moveTo(1465, -196)
+pyautogui.click()

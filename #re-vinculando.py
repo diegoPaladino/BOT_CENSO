@@ -18,6 +18,9 @@ time.sleep(0.2)
 pyautogui.press(['up', 'up', 'up'])
 pyautogui.moveTo(193, -25)
 pyautogui.click()
+pyautogui.moveTo(1469, -168)
+pyautogui.click(button='left')
+
 
 
 

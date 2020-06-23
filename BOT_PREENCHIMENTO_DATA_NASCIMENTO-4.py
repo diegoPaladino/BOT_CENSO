@@ -66,7 +66,6 @@ pyautogui.keyDown('shift')
 pyautogui.press(['right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right', 'right'])
 pyautogui.click()
 pyautogui.keyUp('shift')
-
 pyautogui.hotkey('ctrl', 'v')
 pyautogui.hotkey('esc')
 

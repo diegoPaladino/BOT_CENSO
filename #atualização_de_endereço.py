@@ -103,7 +103,7 @@ pyautogui.moveTo(291, -25)
 pyautogui.click()
 
 # seleção do local onde estão os dados de data de nascimento para substituição
-pyautogui.moveTo(775, 44)
+pyautogui.moveTo(634, 46)
 pyautogui.click()
 pyautogui.moveTo(500, 420)
 

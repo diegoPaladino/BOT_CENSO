@@ -14,7 +14,7 @@ pyautogui.click()
 time.sleep(0.3)
 
 # digitação da data de nascimento
-pyautogui.write('20/08/2005')
+pyautogui.write('10/11/2002')
 time.sleep(2)
 
 # mandar pesquisar no Censo

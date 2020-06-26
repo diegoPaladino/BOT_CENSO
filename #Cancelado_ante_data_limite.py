@@ -1,4 +1,4 @@
-#Transferido_pos_data_limite
+#Cancelado_pos_data_limite
 
 import pyautogui
 import time
@@ -22,7 +22,7 @@ pyautogui.moveTo(402, -812)
 pyautogui.click()
 time.sleep(0.2)
     # escrevendo comentário
-pyautogui.write('TRANSFERIDO_pós_data_limite')
+pyautogui.write('CANCELADO_ante_data_limite')
 time.sleep(2)
 pyautogui.press(['esc', 'esc', ])
     # selecionando a celula com a situação do aluno

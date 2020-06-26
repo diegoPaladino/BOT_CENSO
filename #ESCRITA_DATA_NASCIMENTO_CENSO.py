@@ -14,7 +14,7 @@ pyautogui.click()
 time.sleep(0.3)
 
 # digitação da data de nascimento
-pyautogui.write('14/01/2008')
+pyautogui.write('20/08/2005')
 time.sleep(2)
 
 # mandar pesquisar no Censo
@@ -49,14 +49,17 @@ pyautogui.hotkey('v')
 pyautogui.keyUp('ctrl')
 pyautogui.hotkey('backspace')
 
-# VSCODE - ida para o software 3
-pyautogui.moveTo(991, 44)
-pyautogui.click()
-
 # PASTA - programas em Python, deixando-os on screen
-pyautogui.moveTo(139, -22)
+pyautogui.moveTo(94, -20)
 pyautogui.click()
+time.sleep(0.2)
 
-# MOZILA - Deixa posicionado
-pyautogui.moveTo(1465, -196)
+# GEMUL - Deixa posicionado on screen
+pyautogui.moveTo(144, -27)
 pyautogui.click()
+time.sleep(0.2)
+
+# SVCODE - deixando posicionado no "EXCEL0gray_painting_cells_of_EXCEL", no VSCode
+pyautogui.moveTo(918, 46)
+pyautogui.click()
+time.sleep(0.2)

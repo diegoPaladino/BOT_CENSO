@@ -29,6 +29,11 @@ pyautogui.hotkey('c')
 pyautogui.keyUp('ctrl')
 
 # CENSO - Colando na aba do censo
+    # selecionando o Mozila
+pyautogui.moveTo(192, -20)
+pyautogui.click()
+time.sleep(0.2)
+    # colando na barra de nome, no censo
 pyautogui.moveTo(162, -302)
 pyautogui.click()
 time.sleep(0.2)

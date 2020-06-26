@@ -1,4 +1,4 @@
-#re-vinculando
+#desvinculando
 
 import pyautogui
 import time

@@ -14,7 +14,7 @@ pyautogui.click()
 time.sleep(0.3)
 
 # digitação da data de nascimento
-pyautogui.write('19/04/2004')
+pyautogui.write('14/01/2008')
 time.sleep(2)
 
 # mandar pesquisar no Censo
@@ -53,19 +53,9 @@ pyautogui.hotkey('backspace')
 pyautogui.moveTo(991, 44)
 pyautogui.click()
 
-# MOZILA - volta para a plataforma Censo para o vinculo do aluno
-# pyautogui.moveTo(194, -23)
-# pyautogui.click()
-
-# pré-posicionando janela de bots
-pyautogui.moveTo()
-pyautogui.click()
-
-
-# GEMUL - Deixa on screen
+# PASTA - programas em Python, deixando-os on screen
 pyautogui.moveTo(139, -22)
 pyautogui.click()
-
 
 # MOZILA - Deixa posicionado
 pyautogui.moveTo(1465, -196)

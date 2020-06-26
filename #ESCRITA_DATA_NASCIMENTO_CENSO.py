@@ -14,7 +14,7 @@ pyautogui.click()
 time.sleep(0.3)
 
 # digitação da data de nascimento
-pyautogui.write('27/01/2006')
+pyautogui.write('12/09/2007')
 time.sleep(2)
 
 # mandar pesquisar no Censo
@@ -57,9 +57,15 @@ pyautogui.click()
 # pyautogui.moveTo(194, -23)
 # pyautogui.click()
 
-# abre a pasta de robos
+# pré-posicionando janela de bots
 pyautogui.moveTo()
-pyautogui.click(98, -21)
+pyautogui.click()
+
+
+# GEMUL - Deixa on screen
+pyautogui.moveTo(139, -22)
+pyautogui.click()
+
 
 # MOZILA - Deixa posicionado
 pyautogui.moveTo(1465, -196)

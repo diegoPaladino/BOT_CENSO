@@ -1,4 +1,4 @@
-#Desistente_pos_data_limite
+#Desistente_ante_data_limite
 
 import pyautogui
 import time

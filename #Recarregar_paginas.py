@@ -14,7 +14,8 @@ time.sleep(0.2)
 pyautogui.moveTo(147, -22)
 pyautogui.click()
 time.sleep(1.5)
-pyautogui.hotkey('home')
+pyautogui.hotkey('esc')
+pyautogui.press('home')
 pyautogui.moveTo(257, 221)
 pyautogui.click()
 time.sleep(0.2)
@@ -24,5 +25,10 @@ time.sleep(0.2)
 
 # EXCEL - voltando para o Excel
 pyautogui.moveTo(246, -26)
+pyautogui.click()
+time.sleep(0.2)
+
+# VSCODE - deixando VSCode on screen
+pyautogui.moveTo(297, -24)
 pyautogui.click()
 time.sleep(0.2)

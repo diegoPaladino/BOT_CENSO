@@ -3,26 +3,37 @@
 import pyautogui
 import time
 
-pyautogui.moveTo(190, -368)
+pyautogui.moveTo(189,-257)
 pyautogui.click()
-time.sleep(2)
-pyautogui.moveTo(175, -374, duration=0.5)
+time.sleep(3)
+pyautogui.moveTo(175, -374)
 pyautogui.click()
-pyautogui.hotkey('pagedown')
-pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+pyautogui.press('down', presses=27)
 pyautogui.hotkey('tab')
-pyautogui.moveTo(111, -373, duration=0.2)
+time.sleep(0.2)
+pyautogui.hotkey('esc')
+pyautogui.moveTo(111, -373)   
 pyautogui.click()
+time.sleep(0.3)
 pyautogui.hotkey('pagedown')
 time.sleep(0.3)
-pyautogui.moveTo(146, -268, duration=0.3)
+pyautogui.moveTo(146, -268)
 pyautogui.click()
-pyautogui.moveTo(1313, -167, duration=0.3)
+time.sleep(0.3)
+pyautogui.moveTo(1313, -167)
 pyautogui.click()
 
 # voltando a janela do Visual Studio Code
-pyautogui.moveTo(288, -22)
-pyautogui.click()
+# pyautogui.moveTo(288, -22)
+# pyautogui.click()
+# time.sleep(0.3)
 
 # play - deixando o cursor do mouse no play
-pyautogui.moveTo(1148, 46)
+# pyautogui.moveTo(1148, 46)
+
+# PASTA - indo para a pasta do Windows e preparando para o software de vinculo
+pyautogui.moveTo(104, -25)
+pyautogui.click()
+time.sleep(0.2)
+pyautogui.press('up',presses=1)
+
